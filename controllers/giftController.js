@@ -1,6 +1,6 @@
-const User = require("../models/User");
-const Video = require("../models/Video");
-const Gift = require("../models/Gift");
+const User = require("../models/user");
+const Video = require("../models/video");
+const Gift = require("../models/gift");
 
 exports.giftCreator = async (req, res) => {
   try {
