@@ -1,6 +1,6 @@
-const User = require("../models/User");
-const Video = require("../models/Video");
-const Purchase = require("../models/Purchase");
+const User = require("../models/user");
+const Video = require("../models/video");
+const Purchase = require("../models/purchase");
 
 exports.buyVideo = async (req, res) => {
   try {
